@@ -6,6 +6,7 @@ nav{
     position:fixed;
     width:100%;
     top:0;
+    padding-top:5px;
 }
 a{
     text-decoration:none;
@@ -14,7 +15,7 @@ nav a{
     color:black;
 }
 nav a:hover{
-    color:red;
+    color:#f84258;
     text-decoration:none;
 }
 .nav-links{
@@ -26,4 +27,50 @@ nav a:hover{
     font-weight: 600;
     font-size:14px;
     font-family:'Montserrat',sans-serif;
+}
+#login{
+    color:#f84258;
+}
+.burger div{
+    background-color:#f84258;
+    width:25px;
+    height:3px;
+    margin:5px;
+    transition:all 0.3s ease;
+}
+.burger{
+    display:none;
+    cursor:pointer;
+}
+@media screen and (max-width:800px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+       position:absolute;
+       right:0px;
+       height:90vh;
+       top:10vh;
+       background-color: #232323;
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       width:60%;
+       transform:translateX(100%);
+       transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+    nav a{
+        color:rgb(231, 216, 216);
+    }
+    nav a:hover{
+        color:#f7f7f7;
+        text-decoration: none;
+    
+    }
 }
