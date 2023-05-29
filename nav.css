@@ -1,0 +1,29 @@
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:white;
+    position:fixed;
+    width:100%;
+    top:0;
+}
+a{
+    text-decoration:none;
+}
+nav a{
+    color:black;
+}
+nav a:hover{
+    color:red;
+    text-decoration:none;
+}
+.nav-links{
+    display:flex;
+    list-style:none;
+    width:50%;
+    justify-content:space-around;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size:14px;
+    font-family:'Montserrat',sans-serif;
+}
