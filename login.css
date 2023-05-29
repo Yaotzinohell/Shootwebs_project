@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     display:flex;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 form{
     margin: 10% auto;
@@ -22,7 +22,7 @@ input[type="email"],input[type="Password"] {
     width:200px;
 }
 button[type="Submit"] {
-    background-color: coral;
+    background-color: #f84258;
     border : 1px solid black;
     border-radius: 30px;
     font-size : 15px;
